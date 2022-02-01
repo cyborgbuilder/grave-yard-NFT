@@ -1,0 +1,149 @@
+.containerForm{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url('/public/Images/form.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.bannerForm{
+    width: 100%;
+    height: 100%;;
+}
+
+.bannerForm img {
+    width: 100%;
+    height: 100%;;
+}
+
+.fourem{
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    background-color:  rgb(26, 24, 24);
+    position: absolute;
+    top: 50px;
+    left: 570px;
+    opacity: 0.9;
+    box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px, rgb(0 0 0 / 72%) 0px 30px 22px -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapForm{
+    width: 90%;
+}
+
+.wrapForm input{
+    width: 95%;
+    height: 40px;
+    margin: 15px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    font-family: 'Creepster', cursive;
+    letter-spacing: 1.5px;
+    padding: 5px 10px;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+
+.wrapForm button{
+    width: 100%;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    font-family: 'Creepster', cursive;
+    letter-spacing: 1.1px;
+    margin-top: 60px;
+    border-radius: 5px;;
+    opacity: 0.7;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+    background-color: rgb(150, 143, 143);
+     
+}
+.wrapForm button:hover{
+    background-color: rgb(48, 48, 141);
+    cursor: pointer;
+    transform: scale(1.01);
+    color: white;
+    
+}
+
+.btnConnect{
+    
+}
+
+.btnConnectWallet{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+.btnConnectWallet button{
+    outline: none;
+    border: none;
+    font-size: 30px;;
+    font-family: 'Creepster', cursive;
+    padding: 8px 11px;
+    border-radius: 7px;
+    letter-spacing: 1.1px;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+    
+}
+
+.btnConnectWallet button:hover{
+    background-color: rgb(48, 48, 141);
+    cursor: pointer;
+    transform: scale(1.01);
+    color: white;
+    
+}
+@media only screen and (max-width: 768px){
+    .containerForm{
+        height: 120vh;
+        
+    }
+
+    .fourem{
+        width: 350px;
+        height: 500px;
+        top: 120px;
+        left: 25px;
+        opacity: 0.9;
+        box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px, rgb(0 0 0 / 72%) 0px 30px 22px -10px;
+    }
+
+    .wrapForm input{
+        height: 30px;
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+
+    .wrapForm button{
+        font-size: 24px;
+        padding: 10px 0;
+        letter-spacing: 1.1px;
+        margin-top: 40px;
+       
+       
+         
+    }
+
+    .btnConnectWallet button{
+        
+        font-size: 23px;;
+       
+        
+    }
+    
+    
+    
+    
+    
+}
